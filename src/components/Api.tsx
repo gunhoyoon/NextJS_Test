@@ -7,12 +7,13 @@ const Api = () => {
     console.log(res);
     console.log(res.data);
     console.log(res.data.results);
-    console.log(res.data.results.url);
-    //왜 data > results 는 되는데
-    //왜 data > results > url 이건 안될까?
+    const resulits = res.data.results;
+    const name = resulits[0].name;
+    // 상세 데이터 인덱스 접근
+    // 데이터 접근 고민 완벽해결
   });
 
-  return <div>Api</div>;
+  return <div></div>;
 };
 
 export default Api;

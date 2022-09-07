@@ -3,7 +3,12 @@
 import React from "react";
 
 const index = () => {
-  return <div>index</div>;
+  return (
+    <div>
+      디테일 페이지에서 접근하는 방법은 그 api에서 받아온 그 파일을 잘 살펴본 후
+      , 그 타입을 정의하고나서 접근하는 방법임. 그 상위에 몇번쨰 인덱스인지
+    </div>
+  );
 };
 
 export default index;
